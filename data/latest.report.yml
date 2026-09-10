@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-10T20:32:24Z
+  collectedAt: 2026-09-10T23:19:40Z
 timeline:
   created: 2009-03-27
   lastCommit: 2026-08-25
@@ -89,7 +89,7 @@ total:
   commit: 2781
 ---
 path: /home/runner/.x-repo/github.com/apache/apr-util
-collectedAt: 2026-09-10T20:32:28Z
+collectedAt: 2026-09-10T23:19:41Z
 loc:
   C:
     code: 42445
