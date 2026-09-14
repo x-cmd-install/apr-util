@@ -41,31 +41,12 @@ Total: **53,959** lines of code across **168** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 0 | 0 | 0 | 1 |
-| last60d | 2026-07-15 | 0 | 0 | 0 | 0 | 0 | 16 |
-| 90d | 2026-06-15 | 0 | 0 | 0 | 0 | 0 | 18 |
-| last180d | 2026-03-17 | 0 | 0 | 0 | 0 | 0 | 20 |
-| 360d | 2025-09-18 | 0 | 0 | 0 | 0 | 0 | 24 |
-| last720d | 2024-09-23 | 0 | 0 | 0 | 0 | 0 | 78 |
-
-## Distribution status
-
-Reported by **331** distros on [repology.org](https://repology.org/project/apr-util). **48** are ✅ on the latest upstream release, **238** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.6.4` | ⚠️ outdated |
-| Debian 14 | `1.6.4` | ⚠️ outdated |
-| Debian 13 | `1.6.3` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.6.3` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.6.3` | ⚠️ outdated |
-| Arch | `1.6.5` | ✅ latest |
-| Homebrew | `1.6.5` | ✅ latest |
-| Fedora rawhide | `1.6.5` | ✅ latest |
-| Nix unstable | `1.6.5` | ✅ latest |
-| Void | `1.6.3` | ⚠️ outdated |
-| Alpine edge | `1.6.4` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.6.5` | ✅ latest |
+| 30d | 2026-08-15 | 0 | 0 | 0 | 0 | 0 | 1 |
+| last60d | 2026-07-16 | 0 | 0 | 0 | 0 | 0 | 16 |
+| 90d | 2026-06-16 | 0 | 0 | 0 | 0 | 0 | 18 |
+| last180d | 2026-03-18 | 0 | 0 | 0 | 0 | 0 | 20 |
+| 360d | 2025-09-19 | 0 | 0 | 0 | 0 | 0 | 24 |
+| last720d | 2024-09-24 | 0 | 0 | 0 | 0 | 0 | 78 |
 
 ## Improve this data
 
@@ -76,4 +57,4 @@ Install metadata for apr-util lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:45:14Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:05:05Z._
