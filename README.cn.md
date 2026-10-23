@@ -41,12 +41,31 @@ x install apr-util
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 0 | 0 | 0 | 1 |
-| last60d | 2026-08-23 | 0 | 0 | 0 | 0 | 0 | 1 |
-| 90d | 2026-07-24 | 0 | 0 | 0 | 0 | 0 | 17 |
-| last180d | 2026-04-25 | 0 | 0 | 0 | 0 | 0 | 20 |
-| 360d | 2025-10-27 | 0 | 0 | 0 | 0 | 0 | 22 |
-| last720d | 2024-11-01 | 0 | 0 | 0 | 0 | 0 | 76 |
+| 30d | 2026-09-23 | 0 | 0 | 0 | 0 | 0 | 1 |
+| last60d | 2026-08-24 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 90d | 2026-07-25 | 0 | 0 | 0 | 0 | 0 | 17 |
+| last180d | 2026-04-26 | 0 | 0 | 0 | 0 | 0 | 20 |
+| 360d | 2025-10-28 | 0 | 0 | 0 | 0 | 0 | 22 |
+| last720d | 2024-11-02 | 0 | 0 | 0 | 0 | 0 | 76 |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/apr-util) 上共有 **330** 个发行版报告此项目。**60** 个 ✅ 已是最新上游版本，**223** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `1.6.4` | ⚠️ outdated |
+| Debian 14 | `1.6.4` | ⚠️ outdated |
+| Debian 13 | `1.6.3` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.6.3` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.6.3` | ⚠️ outdated |
+| Arch | `1.6.5` | ✅ latest |
+| Homebrew | `1.6.5` | ✅ latest |
+| Fedora rawhide | `1.6.5` | ✅ latest |
+| Nix unstable | `1.6.5` | ✅ latest |
+| Void | `1.6.3` | ⚠️ outdated |
+| Alpine edge | `1.6.5` | ✅ latest |
+| openSUSE Tumbleweed | `1.6.5` | ✅ latest |
 
 ## 改进这些数据
 
@@ -57,4 +76,4 @@ apr-util 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T05:36:32Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T05:31:43Z._
