@@ -41,21 +41,21 @@ Total: **53,991** lines of code across **168** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 0 | 0 | 0 | 0 | 1 |
-| last60d | 2026-09-09 | 0 | 0 | 0 | 0 | 0 | 2 |
-| 90d | 2026-08-10 | 0 | 0 | 0 | 0 | 0 | 3 |
-| last180d | 2026-05-12 | 0 | 0 | 0 | 0 | 0 | 21 |
-| 360d | 2025-11-13 | 0 | 0 | 0 | 0 | 0 | 23 |
-| last720d | 2024-11-18 | 0 | 0 | 0 | 0 | 0 | 77 |
+| 30d | 2026-10-11 | 0 | 0 | 0 | 0 | 0 | 1 |
+| last60d | 2026-09-11 | 0 | 0 | 0 | 0 | 0 | 2 |
+| 90d | 2026-08-12 | 0 | 0 | 0 | 0 | 0 | 3 |
+| last180d | 2026-05-14 | 0 | 0 | 0 | 0 | 0 | 21 |
+| 360d | 2025-11-15 | 0 | 0 | 0 | 0 | 0 | 23 |
+| last720d | 2024-11-20 | 0 | 0 | 0 | 0 | 0 | 77 |
 
 ## Distribution status
 
-Reported by **341** distros on [repology.org](https://repology.org/project/apr-util). **32** are ✅ on the latest upstream release, **254** are ⚠️ on an older version.
+Reported by **341** distros on [repology.org](https://repology.org/project/apr-util). **35** are ✅ on the latest upstream release, **251** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `1.6.6` | ✅ latest |
-| Debian 14 | `1.6.4` | ⚠️ outdated |
+| Debian 14 | `1.6.6` | ✅ latest |
 | Debian 13 | `1.6.3` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.6.3` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.6.3` | ⚠️ outdated |
@@ -76,4 +76,4 @@ Install metadata for apr-util lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T06:51:56Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T08:16:15Z._
