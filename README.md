@@ -18,7 +18,7 @@ Total: **53,991** lines of code across **168** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 42,477 | 7,316 | 9,016 | 103 |
+| C | 42,477 | 7,314 | 9,016 | 103 |
 | CHeader | 4,061 | 9,551 | 1,410 | 51 |
 | M4 | 2,124 | 398 | 160 | 9 |
 | Xml | 2,037 | 0 | 0 | 2 |
@@ -35,22 +35,22 @@ Total: **53,991** lines of code across **168** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 1 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 2783
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 1 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 2787
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 0 | 0 | 0 | 0 | 0 | 1 |
-| last60d | 2026-09-15 | 0 | 0 | 0 | 0 | 0 | 2 |
-| 90d | 2026-08-16 | 0 | 0 | 0 | 0 | 0 | 3 |
-| last180d | 2026-05-18 | 0 | 0 | 0 | 0 | 0 | 21 |
-| 360d | 2025-11-19 | 0 | 0 | 0 | 0 | 0 | 23 |
-| last720d | 2024-11-24 | 0 | 0 | 0 | 0 | 0 | 77 |
+| 30d | 2026-10-16 | 0 | 0 | 0 | 0 | 0 | 4 |
+| last60d | 2026-09-16 | 0 | 0 | 0 | 0 | 0 | 5 |
+| 90d | 2026-08-17 | 0 | 0 | 0 | 0 | 0 | 6 |
+| last180d | 2026-05-19 | 0 | 0 | 0 | 0 | 0 | 24 |
+| 360d | 2025-11-20 | 0 | 0 | 0 | 0 | 0 | 26 |
+| last720d | 2024-11-25 | 0 | 0 | 0 | 0 | 0 | 81 |
 
 ## Distribution status
 
-Reported by **335** distros on [repology.org](https://repology.org/project/apr-util). **37** are ✅ on the latest upstream release, **243** are ⚠️ on an older version.
+Reported by **335** distros on [repology.org](https://repology.org/project/apr-util). **49** are ✅ on the latest upstream release, **231** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -63,7 +63,7 @@ Reported by **335** distros on [repology.org](https://repology.org/project/apr-u
 | Homebrew | `1.6.6` | ✅ latest |
 | Fedora rawhide | `1.6.5` | ⚠️ outdated |
 | Nix unstable | `1.6.5` | ⚠️ outdated |
-| Void | `1.6.3` | ⚠️ outdated |
+| Void | `1.6.6` | ✅ latest |
 | Alpine edge | `1.6.5` | ⚠️ outdated |
 | openSUSE Tumbleweed | `1.6.5` | ⚠️ outdated |
 
@@ -76,4 +76,4 @@ Install metadata for apr-util lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T07:50:26Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T07:31:31Z._
