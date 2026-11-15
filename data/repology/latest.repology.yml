@@ -1,14 +1,3 @@
-- repo: amazon_2
-  srcname: apr-util
-  visiblename: apr-util
-  version: 1.6.5
-  origversion: 1.6.5-1.amzn2.0.1
-  status: outdated
-  summary: Apache Portable Runtime Utility library
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
 - repo: alpine_3_21
   subrepo: main
   srcname: apr-util
@@ -191,6 +180,15 @@
     - ncopa@alpinelinux.org
   licenses:
     - Apache-2.0
+- repo: slackware64_current
+  subrepo: slackware64
+  binname: apr-util
+  visiblename: apr-util
+  version: 1.6.6
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
 - repo: alpine_3_23
   subrepo: main
   srcname: apr-util
@@ -498,6 +496,29 @@
     - Apache-2.0
   categories:
     - System/Libraries
+- repo: amazon_2
+  srcname: apr-util
+  visiblename: apr-util
+  version: 1.6.5
+  origversion: 1.6.5-1.amzn2.0.1
+  status: outdated
+  summary: Apache Portable Runtime Utility library
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
+- repo: aosc
+  srcname: runtime-common/apr-util
+  binname: apr-util
+  visiblename: apr-util
+  version: 1.6.5
+  origversion: null
+  status: outdated
+  summary: The Apache Portable Runtime utilities
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - libs
 - repo: arch
   subrepo: extra
   srcname: apr-util
@@ -529,6 +550,12 @@
   summary: APR-util provides a number of helpful abstractions on top of APR.
   licenses:
     - Apache-2.0
+- repo: conancenter
+  srcname: apr-util
+  visiblename: apr-util
+  version: 1.6.5
+  origversion: null
+  status: outdated
 - repo: crux_38
   subrepo: opt
   srcname: apr-util
@@ -806,17 +833,6 @@
     - Apache-2
   categories:
     - devel
-- repo: openindiana
-  subrepo: hipster
-  srcname: apr-util
-  binname: library/apr-util-13
-  visiblename: apr-util
-  version: 1.6.6
-  origversion: null
-  status: newest
-  summary: Apache Portable Runtime Utility (APR-util) development header files and libraries (compatibility package)
-  categories:
-    - Web Services/Application and Web Servers
 - repo: manjaro_stable
   subrepo: extra
   srcname: apr-util
@@ -854,9 +870,9 @@
   srcname: mingw-w64-apr-util
   binname: mingw-w64-clang-x86_64-apr-util
   visiblename: mingw-w64-clang-x86_64-apr-util
-  version: 1.6.5
-  origversion: 1.6.5-1
-  status: outdated
+  version: 1.6.6
+  origversion: 1.6.6-1
+  status: newest
   summary: The Apache Portable Runtime (mingw-w64)
   licenses:
     - spdx:Apache-2.0
@@ -864,9 +880,9 @@
   srcname: mingw-w64-apr-util
   binname: mingw-w64-clang-aarch64-apr-util
   visiblename: mingw-w64-clang-aarch64-apr-util
-  version: 1.6.5
-  origversion: 1.6.5-1
-  status: outdated
+  version: 1.6.6
+  origversion: 1.6.6-1
+  status: newest
   summary: The Apache Portable Runtime (mingw-w64)
   licenses:
     - spdx:Apache-2.0
@@ -900,9 +916,9 @@
   srcname: mingw-w64-apr-util
   binname: mingw-w64-ucrt-x86_64-apr-util
   visiblename: mingw-w64-ucrt-x86_64-apr-util
-  version: 1.6.5
-  origversion: 1.6.5-1
-  status: outdated
+  version: 1.6.6
+  origversion: 1.6.6-1
+  status: newest
   summary: The Apache Portable Runtime (mingw-w64)
   licenses:
     - spdx:Apache-2.0
@@ -952,6 +968,15 @@
     - stsp@openbsd.org
   categories:
     - devel
+- repo: slackware_current
+  subrepo: slackware
+  binname: apr-util
+  visiblename: apr-util
+  version: 1.6.6
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
 - repo: openindiana
   subrepo: hipster
   srcname: apr-util
@@ -1038,6 +1063,17 @@
   origversion: null
   status: newest
   summary: Apache Portable Runtime Utility (APR-util) development header files and libraries
+  categories:
+    - Web Services/Application and Web Servers
+- repo: openindiana
+  subrepo: hipster
+  srcname: apr-util
+  binname: library/apr-util-13
+  visiblename: apr-util
+  version: 1.6.6
+  origversion: null
+  status: newest
+  summary: Apache Portable Runtime Utility (APR-util) development header files and libraries (compatibility package)
   categories:
     - Web Services/Application and Web Servers
 - repo: openindiana
@@ -1112,17 +1148,6 @@
     - Apache License 2.0
   categories:
     - System/Libraries
-- repo: stalix
-  srcname: lib/apr/util
-  binname: lib/apr/util
-  visiblename: lib/apr/util
-  version: 1.6.6
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - lib
 - repo: openmandriva_rolling
   subrepo: main/release
   srcname: apr-util
@@ -1193,15 +1218,6 @@
     - Apache-2.0
   categories:
     - Development/Libraries/C and C++
-- repo: slackware_current
-  subrepo: slackware
-  binname: apr-util
-  visiblename: apr-util
-  version: 1.6.6
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
 - repo: parabola
   subrepo: extra
   srcname: apr-util
@@ -1275,17 +1291,6 @@
     - fallback-mnt-ravenports@repology
   categories:
     - devel
-- repo: stalix_dev
-  srcname: lib/apr/util
-  binname: lib/apr/util
-  visiblename: lib/apr/util
-  version: 1.6.6
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - lib
 - repo: side
   srcname: development/toolchain/apr-util
   visiblename: apr-util
@@ -1339,6 +1344,28 @@
     - Apache-2.0
   categories:
     - programming.devel
+- repo: stalix
+  srcname: lib/apr/util
+  binname: lib/apr/util
+  visiblename: lib/apr/util
+  version: 1.6.6
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - lib
+- repo: stalix_dev
+  srcname: lib/apr/util
+  binname: lib/apr/util
+  visiblename: lib/apr/util
+  version: 1.6.6
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - lib
 - repo: starkos
   subrepo: main
   srcname: apr-util
@@ -1413,6 +1440,123 @@
     - sf@debian.org
   categories:
     - libs
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: apr-util
+  binname: apr-util
+  visiblename: apr-util
+  version: 1.6.6
+  origversion: 1.6.6_1
+  status: newest
+  summary: Apache Portable Runtime Utility Library
+  maintainers:
+    - orphan@voidlinux.org
+  licenses:
+    - Apache-2.0
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: apr-util
+  binname: apr-util-db
+  visiblename: apr-util-db
+  version: 1.6.6
+  origversion: 1.6.6_1
+  status: newest
+  summary: Apache Portable Runtime Utility Library - Berkeley DB module
+  maintainers:
+    - orphan@voidlinux.org
+  licenses:
+    - Apache-2.0
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: apr-util
+  binname: apr-util-devel
+  visiblename: apr-util-devel
+  version: 1.6.6
+  origversion: 1.6.6_1
+  status: newest
+  summary: Apache Portable Runtime Utility Library - development files
+  maintainers:
+    - orphan@voidlinux.org
+  licenses:
+    - Apache-2.0
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: apr-util
+  binname: apr-util-gdbm
+  visiblename: apr-util-gdbm
+  version: 1.6.6
+  origversion: 1.6.6_1
+  status: newest
+  summary: Apache Portable Runtime Utility Library - GDBM module
+  maintainers:
+    - orphan@voidlinux.org
+  licenses:
+    - Apache-2.0
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: apr-util
+  binname: apr-util-ldap
+  visiblename: apr-util-ldap
+  version: 1.6.6
+  origversion: 1.6.6_1
+  status: newest
+  summary: Apache Portable Runtime Utility Library - LDAP support
+  maintainers:
+    - orphan@voidlinux.org
+  licenses:
+    - Apache-2.0
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: apr-util
+  binname: apr-util-mysql
+  visiblename: apr-util-mysql
+  version: 1.6.6
+  origversion: 1.6.6_1
+  status: newest
+  summary: Apache Portable Runtime Utility Library - MySQL module
+  maintainers:
+    - orphan@voidlinux.org
+  licenses:
+    - Apache-2.0
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: apr-util
+  binname: apr-util-odbc
+  visiblename: apr-util-odbc
+  version: 1.6.6
+  origversion: 1.6.6_1
+  status: newest
+  summary: Apache Portable Runtime Utility Library - ODBC module
+  maintainers:
+    - orphan@voidlinux.org
+  licenses:
+    - Apache-2.0
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: apr-util
+  binname: apr-util-pgsql
+  visiblename: apr-util-pgsql
+  version: 1.6.6
+  origversion: 1.6.6_1
+  status: newest
+  summary: Apache Portable Runtime Utility Library - PostgreSQL module
+  maintainers:
+    - orphan@voidlinux.org
+  licenses:
+    - Apache-2.0
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: apr-util
+  binname: apr-util-sqlite
+  visiblename: apr-util-sqlite
+  version: 1.6.6
+  origversion: 1.6.6_1
+  status: newest
+  summary: Apache Portable Runtime Utility Library - SQLite module
+  maintainers:
+    - orphan@voidlinux.org
+  licenses:
+    - Apache-2.0
 - repo: vylen
   subrepo: extra
   srcname: apr-util
@@ -1423,69 +1567,45 @@
   summary: Predictable and consistent interface to underlying client library interfaces
   maintainers:
     - wonkru-dev@proton.me
-- repo: conancenter
+- repo: aix_osp
   srcname: apr-util
   visiblename: apr-util
-  version: 1.6.5
-  origversion: null
-  status: outdated
-- repo: slackware64_current
-  subrepo: slackware64
-  binname: apr-util
+  version: 1.5.2
+  origversion: 1.5.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: apr-util
   visiblename: apr-util
-  version: 1.6.6
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: aosc
-  srcname: runtime-common/apr-util
-  binname: apr-util
+  version: 1.5.3
+  origversion: 1.5.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: apr-util
   visiblename: apr-util
-  version: 1.6.5
-  origversion: null
+  version: 1.6.0
+  origversion: 1.6.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: apr-util
+  visiblename: apr-util
+  version: 1.6.1
+  origversion: 1.6.1-1
   status: outdated
-  summary: The Apache Portable Runtime utilities
-  maintainers:
-    - fallback-mnt-aosc@repology
+  vulnerable: true
+- repo: aixtoolbox
+  srcname: apr-util
+  visiblename: apr-util
+  version: 1.6.3
+  origversion: 1.6.3-2
+  status: outdated
+  summary: Apache Portable Runtime Utility library
+  licenses:
+    - Apache Software License 2.0
   categories:
-    - libs
-- repo: conancenter
-  srcname: apr-util
-  visiblename: apr-util
-  version: 1.6.1
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: slackware64_15_0
-  subrepo: patches
-  binname: apr-util
-  visiblename: apr-util
-  version: 1.6.3
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: apr-util
-  visiblename: apr-util
-  version: 1.6.1
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: slackwarearm_15_0
-  subrepo: patches
-  binname: apr-util
-  visiblename: apr-util
-  version: 1.6.3
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
+    - System Environment/Libraries
   vulnerable: true
 - repo: aix_osp
   srcname: apr-util
@@ -1508,67 +1628,33 @@
   origversion: 1.5.4-3
   status: legacy
   vulnerable: true
-- repo: openindiana
-  subrepo: hipster
+- repo: adelie_current
+  subrepo: user
   srcname: apr-util
-  binname: library/apr-util/dbd-mysql
+  binname: apr-util
   visiblename: apr-util
   version: 1.6.3
-  origversion: null
-  status: legacy
-  summary: Apache Portable Runtime Utility (APR-util) DBD Driver for MySQL
-  categories:
-    - Web Services/Application and Web Servers
-  vulnerable: true
-- repo: crux_37
-  subrepo: opt
-  srcname: apr-util
-  visiblename: apr-util
-  version: 1.6.3
-  origversion: null
+  origversion: 1.6.3-r0
   status: outdated
-  summary: APR-util provides a number of helpful abstractions on top of APR
+  summary: The Apache Portable Runtime Utility Library
   maintainers:
-    - jue@crux.nu
-  vulnerable: true
-- repo: eurolinux_9
-  subrepo: appstream
-  srcname: apr-util
-  binnames:
-    - apr-util
-    - apr-util-devel
-    - apr-util-pgsql
-    - apr-util-bdb
-    - apr-util-mysql
-    - apr-util-sqlite
-    - apr-util-odbc
-    - apr-util-ldap
-    - apr-util-openssl
-    - apr-util-debuginfo
-    - apr-util-debugsource
-  visiblename: apr-util
-  version: 1.6.1
-  origversion: 1.6.1-23.el9
-  status: outdated
-  summary: Apache Portable Runtime Utility library
+    - awilfox@adelielinux.org
   licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
+    - Apache-2.0
   vulnerable: true
-- repo: aix_osp
+- repo: adelie_current
+  subrepo: user
   srcname: apr-util
-  visiblename: apr-util
-  version: 1.6.0
-  origversion: 1.6.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: apr-util
-  visiblename: apr-util
-  version: 1.6.1
-  origversion: 1.6.1-1
+  binname: apr-util-dbd_pgsql
+  visiblename: apr-util-dbd_pgsql
+  version: 1.6.3
+  origversion: 1.6.3-r0
   status: outdated
+  summary: The Apache Portable Runtime Utility Library - PostgreSQL driver
+  maintainers:
+    - awilfox@adelielinux.org
+  licenses:
+    - Apache-2.0
   vulnerable: true
 - repo: adelie_current
   subrepo: user
@@ -1593,58 +1679,6 @@
   origversion: 1.6.3-r0
   status: outdated
   summary: The Apache Portable Runtime Utility Library (debug symbols)
-  maintainers:
-    - awilfox@adelielinux.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: aixtoolbox
-  srcname: apr-util
-  visiblename: apr-util
-  version: 1.6.3
-  origversion: 1.6.3-2
-  status: outdated
-  summary: Apache Portable Runtime Utility library
-  licenses:
-    - Apache Software License 2.0
-  categories:
-    - System Environment/Libraries
-  vulnerable: true
-- repo: adelie_current
-  subrepo: user
-  srcname: apr-util
-  binname: apr-util
-  visiblename: apr-util
-  version: 1.6.3
-  origversion: 1.6.3-r0
-  status: outdated
-  summary: The Apache Portable Runtime Utility Library
-  maintainers:
-    - awilfox@adelielinux.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: amazon_2
-  srcname: apr-util
-  visiblename: apr-util
-  version: 1.6.3
-  origversion: 1.6.3-1.amzn2.0.1
-  status: legacy
-  summary: Apache Portable Runtime Utility library
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: adelie_current
-  subrepo: user
-  srcname: apr-util
-  binname: apr-util-dbd_pgsql
-  visiblename: apr-util-dbd_pgsql
-  version: 1.6.3
-  origversion: 1.6.3-r0
-  status: outdated
-  summary: The Apache Portable Runtime Utility Library - PostgreSQL driver
   maintainers:
     - awilfox@adelielinux.org
   licenses:
@@ -1802,20 +1836,6 @@
   visiblename: apr-util
   version: 1.5.1
   origversion: 1.5.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: apr-util
-  visiblename: apr-util
-  version: 1.5.2
-  origversion: 1.5.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: apr-util
-  visiblename: apr-util
-  version: 1.5.3
-  origversion: 1.5.3-1
   status: legacy
   vulnerable: true
 - repo: almalinux_8
@@ -2154,6 +2174,19 @@
   licenses:
     - Apache-2.0
   vulnerable: true
+- repo: centos_7
+  subrepo: os
+  srcname: apr-util
+  visiblename: apr-util
+  version: 1.5.2
+  origversion: 1.5.2-6.el7
+  status: outdated
+  summary: Apache Portable Runtime Utility library
+  licenses:
+    - ASL 2.0
+  categories:
+    - System Environment/Libraries
+  vulnerable: true
 - repo: alpine_3_20
   subrepo: main
   srcname: apr-util
@@ -2195,6 +2228,19 @@
     - ncopa@alpinelinux.org
   licenses:
     - Apache-2.0
+  vulnerable: true
+- repo: cygwin
+  srcname: libaprutil1
+  binname: libaprutil1-devel
+  visiblename: libaprutil1-devel
+  version: 1.6.1
+  origversion: 1.6.1-1
+  status: outdated
+  summary: Apache Portable Runtime utility library (runtime)
+  maintainers:
+    - orphaned@cygwin
+  categories:
+    - Libs
   vulnerable: true
 - repo: alpine_3_20
   subrepo: main
@@ -2238,7 +2284,7 @@
   licenses:
     - Apache-2.0
   vulnerable: true
-- repo: slackware_15_0
+- repo: slackware64_15_0
   subrepo: patches
   binname: apr-util
   visiblename: apr-util
@@ -2248,30 +2294,25 @@
   maintainers:
     - volkerdi@slackware.com
   vulnerable: true
-- repo: nix_stable_24_11
-  srcname: aprutil
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: apr-util
+  visiblename: apr-util
+  version: 1.6.1
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: slackwarearm_15_0
+  subrepo: patches
+  binname: apr-util
   visiblename: apr-util
   version: 1.6.3
   origversion: null
   status: outdated
-  summary: Companion library to APR, the Apache Portable Runtime
   maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: centos_7
-  subrepo: os
-  srcname: apr-util
-  visiblename: apr-util
-  version: 1.5.2
-  origversion: 1.5.2-6.el7
-  status: outdated
-  summary: Apache Portable Runtime Utility library
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Libraries
+    - volkerdi@slackware.com
   vulnerable: true
 - repo: amazon_1
   subrepo: main
@@ -2334,6 +2375,18 @@
     - ASL 2.0
   categories:
     - System Environment/Libraries
+  vulnerable: true
+- repo: amazon_2
+  srcname: apr-util
+  visiblename: apr-util
+  version: 1.6.3
+  origversion: 1.6.3-1.amzn2.0.1
+  status: legacy
+  summary: Apache Portable Runtime Utility library
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: apertis_v2023
   subrepo: v2023/development
@@ -2650,6 +2703,19 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: cygwin
+  srcname: libaprutil1
+  binname: libaprutil1-debuginfo
+  visiblename: libaprutil1-debuginfo
+  version: 1.6.1
+  origversion: 1.6.1-1
+  status: outdated
+  summary: Apache Portable Runtime utility library (runtime)
+  maintainers:
+    - orphaned@cygwin
+  categories:
+    - Debug
+  vulnerable: true
 - repo: centos_stream_10
   subrepo: AppStream
   srcname: apr-util
@@ -2752,6 +2818,24 @@
   licenses:
     - Apache-2.0
   vulnerable: true
+- repo: conancenter
+  srcname: apr-util
+  visiblename: apr-util
+  version: 1.6.1
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: crux_37
+  subrepo: opt
+  srcname: apr-util
+  visiblename: apr-util
+  version: 1.6.3
+  origversion: null
+  status: outdated
+  summary: APR-util provides a number of helpful abstractions on top of APR
+  maintainers:
+    - jue@crux.nu
+  vulnerable: true
 - repo: cygwin
   srcname: libaprutil1
   binname: libaprutil1
@@ -2764,44 +2848,6 @@
     - orphaned@cygwin
   categories:
     - Libs
-  vulnerable: true
-- repo: cygwin
-  srcname: libaprutil1
-  binname: libaprutil1-debuginfo
-  visiblename: libaprutil1-debuginfo
-  version: 1.6.1
-  origversion: 1.6.1-1
-  status: outdated
-  summary: Apache Portable Runtime utility library (runtime)
-  maintainers:
-    - orphaned@cygwin
-  categories:
-    - Debug
-  vulnerable: true
-- repo: cygwin
-  srcname: libaprutil1
-  binname: libaprutil1-devel
-  visiblename: libaprutil1-devel
-  version: 1.6.1
-  origversion: 1.6.1-1
-  status: outdated
-  summary: Apache Portable Runtime utility library (runtime)
-  maintainers:
-    - orphaned@cygwin
-  categories:
-    - Libs
-  vulnerable: true
-- repo: openindiana
-  subrepo: hipster
-  srcname: apr-util
-  binname: library/apr-util/dbd-pgsql
-  visiblename: apr-util
-  version: 1.6.3
-  origversion: null
-  status: legacy
-  summary: Apache Portable Runtime Utility (APR-util) DBD Driver for PostgreSQL
-  categories:
-    - Web Services/Application and Web Servers
   vulnerable: true
 - repo: debian_11
   subrepo: bullseye-security/main
@@ -2846,39 +2892,6 @@
     - libs
   vulnerable: true
 - repo: debian_12
-  subrepo: bookworm-security/main
-  srcname: apr-util
-  binnames:
-    - libaprutil1
-    - libaprutil1-ldap
-    - libaprutil1-dbd-mysql
-    - libaprutil1-dbd-sqlite3
-    - libaprutil1-dbd-odbc
-    - libaprutil1-dbd-pgsql
-    - libaprutil1-dev
-  visiblename: apr-util
-  version: 1.6.3
-  origversion: 1.6.3-1+deb12u1
-  status: outdated
-  maintainers:
-    - debian-apache@lists.debian.org
-    - sf@debian.org
-  categories:
-    - libs
-  vulnerable: true
-- repo: nix_stable_25_05
-  srcname: aprutil
-  visiblename: apr-util
-  version: 1.6.3
-  origversion: null
-  status: outdated
-  summary: Companion library to APR, the Apache Portable Runtime
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: debian_12
   subrepo: bookworm/main
   srcname: apr-util
   binnames:
@@ -2899,8 +2912,29 @@
   categories:
     - libs
   vulnerable: true
+- repo: debian_12
+  subrepo: bookworm-security/main
+  srcname: apr-util
+  binnames:
+    - libaprutil1
+    - libaprutil1-ldap
+    - libaprutil1-dbd-mysql
+    - libaprutil1-dbd-sqlite3
+    - libaprutil1-dbd-odbc
+    - libaprutil1-dbd-pgsql
+    - libaprutil1-dev
+  visiblename: apr-util
+  version: 1.6.3
+  origversion: 1.6.3-1+deb12u1
+  status: outdated
+  maintainers:
+    - debian-apache@lists.debian.org
+    - sf@debian.org
+  categories:
+    - libs
+  vulnerable: true
 - repo: debian_13
-  subrepo: trixie/main
+  subrepo: trixie-security/main
   srcname: apr-util
   binnames:
     - libaprutil1t64
@@ -2921,7 +2955,7 @@
     - libs
   vulnerable: true
 - repo: debian_13
-  subrepo: trixie-security/main
+  subrepo: trixie/main
   srcname: apr-util
   binnames:
     - libaprutil1t64
@@ -3101,6 +3135,31 @@
     - Unspecified
   vulnerable: true
 - repo: eurolinux_9
+  subrepo: appstream
+  srcname: apr-util
+  binnames:
+    - apr-util
+    - apr-util-devel
+    - apr-util-pgsql
+    - apr-util-bdb
+    - apr-util-mysql
+    - apr-util-sqlite
+    - apr-util-odbc
+    - apr-util-ldap
+    - apr-util-openssl
+    - apr-util-debuginfo
+    - apr-util-debugsource
+  visiblename: apr-util
+  version: 1.6.1
+  origversion: 1.6.1-23.el9
+  status: outdated
+  summary: Apache Portable Runtime Utility library
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_9
   subrepo: baseos
   srcname: apr-util
   binnames:
@@ -3222,29 +3281,6 @@
     - Unspecified
   vulnerable: true
 - repo: fedora_42
-  subrepo: release
-  srcname: apr-util
-  binnames:
-    - apr-util
-    - apr-util-devel
-    - apr-util-pgsql
-    - apr-util-lmdb
-    - apr-util-mysql
-    - apr-util-sqlite
-    - apr-util-odbc
-    - apr-util-ldap
-    - apr-util-openssl
-  visiblename: apr-util
-  version: 1.6.3
-  origversion: 1.6.3-22.fc42
-  status: outdated
-  summary: Apache Portable Runtime Utility library
-  licenses:
-    - Apache-2.0 AND (Beerware AND LicenseRef-Fedora-Public-Domain AND OLDAP-2.7 AND BSD-4.3RENO)
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: fedora_42
   subrepo: updates
   srcname: apr-util
   binnames:
@@ -3260,6 +3296,29 @@
   visiblename: apr-util
   version: 1.6.3
   origversion: 1.6.3-25.fc42
+  status: outdated
+  summary: Apache Portable Runtime Utility library
+  licenses:
+    - Apache-2.0 AND (Beerware AND LicenseRef-Fedora-Public-Domain AND OLDAP-2.7 AND BSD-4.3RENO)
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: fedora_42
+  subrepo: release
+  srcname: apr-util
+  binnames:
+    - apr-util
+    - apr-util-devel
+    - apr-util-pgsql
+    - apr-util-lmdb
+    - apr-util-mysql
+    - apr-util-sqlite
+    - apr-util-odbc
+    - apr-util-ldap
+    - apr-util-openssl
+  visiblename: apr-util
+  version: 1.6.3
+  origversion: 1.6.3-22.fc42
   status: outdated
   summary: Apache Portable Runtime Utility library
   licenses:
@@ -3313,6 +3372,16 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: pclinuxos
+  srcname: apr-util
+  visiblename: apr-util
+  version: 1.6.1
+  origversion: 1.6.1-2pclos2019
+  status: outdated
+  summary: Apache Portable Runtime Utility library
+  categories:
+    - System/Libraries
+  vulnerable: true
 - repo: gentoo
   srcname: dev-libs/apr-util
   visiblename: dev-libs/apr-util
@@ -3345,18 +3414,6 @@
   summary: Apache Portable Runtime Utility Library
   licenses:
     - Apache License 2.0
-  vulnerable: true
-- repo: nix_stable_25_11
-  srcname: aprutil
-  visiblename: apr-util
-  version: 1.6.3
-  origversion: null
-  status: outdated
-  summary: Companion library to APR, the Apache Portable Runtime
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - Apache-2.0
   vulnerable: true
 - repo: hpux_11_31
   subrepo: hppa_32
@@ -3427,6 +3484,44 @@
   categories:
     - dev-libs
   vulnerable: true
+- repo: openeuler_20_03_lts_sp4
+  srcname: apr-util
+  visiblename: apr-util
+  version: 1.6.1
+  origversion: 1.6.1-15.oe2003sp4
+  status: outdated
+  summary: apr-util provides a number of helpful abstractions on top of APR.
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: mageia_9
+  subrepo: core/release
+  srcname: apr-util
+  binnames:
+    - lib64apr-util1_0
+    - apr-util-dbd-ldap
+    - apr-util-dbd-pgsql
+    - apr-util-dbd-mysql
+    - apr-util-dbd-sqlite3
+    - apr-util-dbd-odbc
+    - apr-util-dbm-db
+    - apr-util-openssl
+    - apr-util-nss
+    - lib64apr-util-devel
+    - apr-util-debuginfo
+    - apr-util-debugsource
+  visiblename: apr-util
+  version: 1.6.3
+  origversion: 1.6.3-1.mga9
+  status: outdated
+  summary: Apache Portable Runtime Utility library
+  licenses:
+    - Apache License
+  categories:
+    - System/Libraries
+  vulnerable: true
 - repo: mageia_9
   subrepo: core/updates
   srcname: apr-util
@@ -3453,20 +3548,18 @@
   categories:
     - System/Libraries
   vulnerable: true
-- repo: openindiana
-  subrepo: hipster
-  srcname: apr-util
-  binname: library/apr-util/dbd-sqlite
+- repo: slackware_15_0
+  subrepo: slackware
+  binname: apr-util
   visiblename: apr-util
-  version: 1.6.3
+  version: 1.6.1
   origversion: null
   status: legacy
-  summary: Apache Portable Runtime Utility (APR-util) DBD Driver for SQLite
-  categories:
-    - Web Services/Application and Web Servers
+  maintainers:
+    - volkerdi@slackware.com
   vulnerable: true
-- repo: mageia_9
-  subrepo: core/release
+- repo: mageia_10
+  subrepo: core/updates
   srcname: apr-util
   binnames:
     - lib64apr-util1_0
@@ -3479,11 +3572,9 @@
     - apr-util-openssl
     - apr-util-nss
     - lib64apr-util-devel
-    - apr-util-debuginfo
-    - apr-util-debugsource
   visiblename: apr-util
   version: 1.6.3
-  origversion: 1.6.3-1.mga9
+  origversion: 1.6.3-3.1.mga10
   status: outdated
   summary: Apache Portable Runtime Utility library
   licenses:
@@ -3515,30 +3606,6 @@
   categories:
     - System/Libraries
   vulnerable: true
-- repo: mageia_10
-  subrepo: core/updates
-  srcname: apr-util
-  binnames:
-    - lib64apr-util1_0
-    - apr-util-dbd-ldap
-    - apr-util-dbd-pgsql
-    - apr-util-dbd-mysql
-    - apr-util-dbd-sqlite3
-    - apr-util-dbd-odbc
-    - apr-util-dbm-db
-    - apr-util-openssl
-    - apr-util-nss
-    - lib64apr-util-devel
-  visiblename: apr-util
-  version: 1.6.3
-  origversion: 1.6.3-3.1.mga10
-  status: outdated
-  summary: Apache Portable Runtime Utility library
-  licenses:
-    - Apache License
-  categories:
-    - System/Libraries
-  vulnerable: true
 - repo: mageia_cauldron
   subrepo: core/release
   srcname: apr-util
@@ -3563,6 +3630,18 @@
   categories:
     - System/Libraries
   vulnerable: true
+- repo: openindiana
+  subrepo: hipster
+  srcname: apr-util
+  binname: library/apr-util/documentation
+  visiblename: apr-util
+  version: 1.6.3
+  origversion: null
+  status: legacy
+  summary: Apache Portable Runtime Utility (APR-util) documentation
+  categories:
+    - Web Services/Application and Web Servers
+  vulnerable: true
 - repo: nix_stable_24_05
   srcname: aprutil
   visiblename: apr-util
@@ -3575,23 +3654,47 @@
   licenses:
     - Apache-2.0
   vulnerable: true
+- repo: nix_stable_24_11
+  srcname: aprutil
+  visiblename: apr-util
+  version: 1.6.3
+  origversion: null
+  status: outdated
+  summary: Companion library to APR, the Apache Portable Runtime
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: nix_stable_25_05
+  srcname: aprutil
+  visiblename: apr-util
+  version: 1.6.3
+  origversion: null
+  status: outdated
+  summary: Companion library to APR, the Apache Portable Runtime
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: nix_stable_25_11
+  srcname: aprutil
+  visiblename: apr-util
+  version: 1.6.3
+  origversion: null
+  status: outdated
+  summary: Companion library to APR, the Apache Portable Runtime
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - Apache-2.0
+  vulnerable: true
 - repo: openeuler_20_03_lts_sp3
   srcname: apr-util
   visiblename: apr-util
   version: 1.6.1
   origversion: 1.6.1-14.oe1
-  status: outdated
-  summary: apr-util provides a number of helpful abstractions on top of APR.
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: openeuler_20_03_lts_sp4
-  srcname: apr-util
-  visiblename: apr-util
-  version: 1.6.1
-  origversion: 1.6.1-15.oe2003sp4
   status: outdated
   summary: apr-util provides a number of helpful abstractions on top of APR.
   licenses:
@@ -3675,6 +3778,19 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: openwrt_23_05_x86_64
+  subrepo: packages
+  srcname: feeds/packages/libs/apr-util
+  binname: libaprutil-dbd-mysql
+  visiblename: libaprutil-dbd-mysql
+  version: 1.6.1
+  origversion: 1.6.1-7
+  status: outdated
+  maintainers:
+    - heil@terminal-consulting.de
+  categories:
+    - libs
+  vulnerable: true
 - repo: openeuler_24_03_lts_sp1
   srcname: apr-util
   binnames:
@@ -3712,16 +3828,6 @@
     - ASL 2.0
   categories:
     - Unspecified
-  vulnerable: true
-- repo: pclinuxos
-  srcname: apr-util
-  visiblename: apr-util
-  version: 1.6.1
-  origversion: 1.6.1-2pclos2019
-  status: outdated
-  summary: Apache Portable Runtime Utility library
-  categories:
-    - System/Libraries
   vulnerable: true
 - repo: openeuler_25_03
   srcname: apr-util
@@ -3781,14 +3887,48 @@
 - repo: openindiana
   subrepo: hipster
   srcname: apr-util
-  binname: library/apr-util/documentation
+  binname: library/apr-util/dbd-mysql
   visiblename: apr-util
   version: 1.6.3
   origversion: null
   status: legacy
-  summary: Apache Portable Runtime Utility (APR-util) documentation
+  summary: Apache Portable Runtime Utility (APR-util) DBD Driver for MySQL
   categories:
     - Web Services/Application and Web Servers
+  vulnerable: true
+- repo: openindiana
+  subrepo: hipster
+  srcname: apr-util
+  binname: library/apr-util/dbd-pgsql
+  visiblename: apr-util
+  version: 1.6.3
+  origversion: null
+  status: legacy
+  summary: Apache Portable Runtime Utility (APR-util) DBD Driver for PostgreSQL
+  categories:
+    - Web Services/Application and Web Servers
+  vulnerable: true
+- repo: openindiana
+  subrepo: hipster
+  srcname: apr-util
+  binname: library/apr-util/dbd-sqlite
+  visiblename: apr-util
+  version: 1.6.3
+  origversion: null
+  status: legacy
+  summary: Apache Portable Runtime Utility (APR-util) DBD Driver for SQLite
+  categories:
+    - Web Services/Application and Web Servers
+  vulnerable: true
+- repo: slackware_15_0
+  subrepo: patches
+  binname: apr-util
+  visiblename: apr-util
+  version: 1.6.3
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
   vulnerable: true
 - repo: openkylin_1_0
   subrepo: yangtze/main
@@ -3986,19 +4126,6 @@
 - repo: openwrt_23_05_x86_64
   subrepo: packages
   srcname: feeds/packages/libs/apr-util
-  binname: libaprutil-dbd-mysql
-  visiblename: libaprutil-dbd-mysql
-  version: 1.6.1
-  origversion: 1.6.1-7
-  status: outdated
-  maintainers:
-    - heil@terminal-consulting.de
-  categories:
-    - libs
-  vulnerable: true
-- repo: openwrt_23_05_x86_64
-  subrepo: packages
-  srcname: feeds/packages/libs/apr-util
   binname: libaprutil-dbd-odbc
   visiblename: libaprutil-dbd-odbc
   version: 1.6.1
@@ -4139,6 +4266,16 @@
   categories:
     - libs
   vulnerable: true
+- repo: slackware64_15_0
+  subrepo: slackware64
+  binname: apr-util
+  visiblename: apr-util
+  version: 1.6.1
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
 - repo: openwrt_24_10_x86_64
   subrepo: packages
   srcname: feeds/packages/libs/apr-util
@@ -4276,16 +4413,6 @@
     - Apache-2.0
   categories:
     - library
-  vulnerable: true
-- repo: slackware64_15_0
-  subrepo: slackware64
-  binname: apr-util
-  visiblename: apr-util
-  version: 1.6.1
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
   vulnerable: true
 - repo: pkgsrc_2026_2
   srcname: devel/apr-util
@@ -4542,16 +4669,6 @@
   categories:
     - System/Libraries
   vulnerable: true
-- repo: slackware_15_0
-  subrepo: slackware
-  binname: apr-util
-  visiblename: apr-util
-  version: 1.6.1
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
 - repo: spack
   srcname: apr-util
   visiblename: apr-util
@@ -4667,28 +4784,6 @@
     - libs
   vulnerable: true
 - repo: ubuntu_20_04
-  subrepo: focal-updates/main
-  srcname: apr-util
-  binnames:
-    - libaprutil1
-    - libaprutil1-ldap
-    - libaprutil1-dbd-mysql
-    - libaprutil1-dbd-sqlite3
-    - libaprutil1-dbd-odbc
-    - libaprutil1-dbd-pgsql
-    - libaprutil1-dev
-    - libaprutil1-dbg
-  visiblename: apr-util
-  version: 1.6.1
-  origversion: 1.6.1-4ubuntu2.2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - sf@debian.org
-  categories:
-    - libs
-  vulnerable: true
-- repo: ubuntu_20_04
   subrepo: focal/main
   srcname: apr-util
   binnames:
@@ -4710,8 +4805,8 @@
   categories:
     - libs
   vulnerable: true
-- repo: ubuntu_22_04
-  subrepo: jammy/main
+- repo: ubuntu_20_04
+  subrepo: focal-updates/main
   srcname: apr-util
   binnames:
     - libaprutil1
@@ -4721,9 +4816,10 @@
     - libaprutil1-dbd-odbc
     - libaprutil1-dbd-pgsql
     - libaprutil1-dev
+    - libaprutil1-dbg
   visiblename: apr-util
   version: 1.6.1
-  origversion: 1.6.1-5ubuntu4
+  origversion: 1.6.1-4ubuntu2.2
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -4745,6 +4841,27 @@
   visiblename: apr-util
   version: 1.6.1
   origversion: 1.6.1-5ubuntu4.22.04.3
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - sf@debian.org
+  categories:
+    - libs
+  vulnerable: true
+- repo: ubuntu_22_04
+  subrepo: jammy/main
+  srcname: apr-util
+  binnames:
+    - libaprutil1
+    - libaprutil1-ldap
+    - libaprutil1-dbd-mysql
+    - libaprutil1-dbd-sqlite3
+    - libaprutil1-dbd-odbc
+    - libaprutil1-dbd-pgsql
+    - libaprutil1-dev
+  visiblename: apr-util
+  version: 1.6.1
+  origversion: 1.6.1-5ubuntu4
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -4837,27 +4954,6 @@
     - libs
   vulnerable: true
 - repo: ubuntu_26_04
-  subrepo: resolute-updates/main
-  srcname: apr-util
-  binnames:
-    - libaprutil1t64
-    - libaprutil1-ldap
-    - libaprutil1-dbd-mysql
-    - libaprutil1-dbd-sqlite3
-    - libaprutil1-dbd-odbc
-    - libaprutil1-dbd-pgsql
-    - libaprutil1-dev
-  visiblename: apr-util
-  version: 1.6.3
-  origversion: 1.6.3-3ubuntu3.1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - sf@debian.org
-  categories:
-    - libs
-  vulnerable: true
-- repo: ubuntu_26_04
   subrepo: resolute/main
   srcname: apr-util
   binnames:
@@ -4878,6 +4974,27 @@
   categories:
     - libs
   vulnerable: true
+- repo: ubuntu_26_04
+  subrepo: resolute-updates/main
+  srcname: apr-util
+  binnames:
+    - libaprutil1t64
+    - libaprutil1-ldap
+    - libaprutil1-dbd-mysql
+    - libaprutil1-dbd-sqlite3
+    - libaprutil1-dbd-odbc
+    - libaprutil1-dbd-pgsql
+    - libaprutil1-dev
+  visiblename: apr-util
+  version: 1.6.3
+  origversion: 1.6.3-3ubuntu3.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - sf@debian.org
+  categories:
+    - libs
+  vulnerable: true
 - repo: vcpkg
   srcname: apr-util
   visiblename: apr-util
@@ -4885,130 +5002,4 @@
   origversion: null
   status: outdated
   summary: Apache Portable Runtime (APR) project  mission is to create and maintain software libraries that provide a predictable and consistent interface to underlying platform-specific implementation
-  vulnerable: true
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: apr-util
-  binname: apr-util
-  visiblename: apr-util
-  version: 1.6.3
-  origversion: 1.6.3_4
-  status: outdated
-  summary: Apache Portable Runtime Utility Library
-  maintainers:
-    - orphan@voidlinux.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: apr-util
-  binname: apr-util-db
-  visiblename: apr-util-db
-  version: 1.6.3
-  origversion: 1.6.3_4
-  status: outdated
-  summary: Apache Portable Runtime Utility Library - Berkeley DB module
-  maintainers:
-    - orphan@voidlinux.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: apr-util
-  binname: apr-util-devel
-  visiblename: apr-util-devel
-  version: 1.6.3
-  origversion: 1.6.3_4
-  status: outdated
-  summary: Apache Portable Runtime Utility Library - development files
-  maintainers:
-    - orphan@voidlinux.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: apr-util
-  binname: apr-util-gdbm
-  visiblename: apr-util-gdbm
-  version: 1.6.3
-  origversion: 1.6.3_4
-  status: outdated
-  summary: Apache Portable Runtime Utility Library - GDBM module
-  maintainers:
-    - orphan@voidlinux.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: apr-util
-  binname: apr-util-ldap
-  visiblename: apr-util-ldap
-  version: 1.6.3
-  origversion: 1.6.3_4
-  status: outdated
-  summary: Apache Portable Runtime Utility Library - LDAP support
-  maintainers:
-    - orphan@voidlinux.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: apr-util
-  binname: apr-util-mysql
-  visiblename: apr-util-mysql
-  version: 1.6.3
-  origversion: 1.6.3_4
-  status: outdated
-  summary: Apache Portable Runtime Utility Library - MySQL module
-  maintainers:
-    - orphan@voidlinux.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: apr-util
-  binname: apr-util-odbc
-  visiblename: apr-util-odbc
-  version: 1.6.3
-  origversion: 1.6.3_4
-  status: outdated
-  summary: Apache Portable Runtime Utility Library - ODBC module
-  maintainers:
-    - orphan@voidlinux.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: apr-util
-  binname: apr-util-pgsql
-  visiblename: apr-util-pgsql
-  version: 1.6.3
-  origversion: 1.6.3_4
-  status: outdated
-  summary: Apache Portable Runtime Utility Library - PostgreSQL module
-  maintainers:
-    - orphan@voidlinux.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: apr-util
-  binname: apr-util-sqlite
-  visiblename: apr-util-sqlite
-  version: 1.6.3
-  origversion: 1.6.3_4
-  status: outdated
-  summary: Apache Portable Runtime Utility Library - SQLite module
-  maintainers:
-    - orphan@voidlinux.org
-  licenses:
-    - Apache-2.0
   vulnerable: true
