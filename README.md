@@ -14,11 +14,11 @@ x install apr-util
 
 ## Code insight
 
-Total: **53,991** lines of code across **168** files in the top 5 languages.
+Total: **54,175** lines of code across **168** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 42,477 | 7,314 | 9,016 | 103 |
+| C | 42,661 | 7,336 | 9,050 | 103 |
 | CHeader | 4,061 | 9,551 | 1,410 | 51 |
 | M4 | 2,124 | 398 | 160 | 9 |
 | Xml | 2,037 | 0 | 0 | 2 |
@@ -35,18 +35,18 @@ Total: **53,991** lines of code across **168** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 1 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 2787
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 1 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 2788
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 0 | 0 | 0 | 0 | 0 | 4 |
-| last60d | 2026-09-16 | 0 | 0 | 0 | 0 | 0 | 5 |
-| 90d | 2026-08-17 | 0 | 0 | 0 | 0 | 0 | 6 |
-| last180d | 2026-05-19 | 0 | 0 | 0 | 0 | 0 | 24 |
-| 360d | 2025-11-20 | 0 | 0 | 0 | 0 | 0 | 26 |
-| last720d | 2024-11-25 | 0 | 0 | 0 | 0 | 0 | 81 |
+| 30d | 2026-10-17 | 0 | 0 | 0 | 0 | 0 | 5 |
+| last60d | 2026-09-17 | 0 | 0 | 0 | 0 | 0 | 6 |
+| 90d | 2026-08-18 | 0 | 0 | 0 | 0 | 0 | 7 |
+| last180d | 2026-05-20 | 0 | 0 | 0 | 0 | 0 | 25 |
+| 360d | 2025-11-21 | 0 | 0 | 0 | 0 | 0 | 27 |
+| last720d | 2024-11-26 | 0 | 0 | 0 | 0 | 0 | 82 |
 
 ## Distribution status
 
@@ -76,4 +76,4 @@ Install metadata for apr-util lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T07:31:31Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T07:54:06Z._
